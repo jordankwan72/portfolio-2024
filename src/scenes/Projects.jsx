@@ -31,7 +31,7 @@ const Project = ({ title, projectDescription, link }) => {
           <img
             className="h-5 w-5 flex"
             alt="right-arrow"
-            src="../assets/right-arrow.png"
+            src={require("../assets/right-arrow.png")}
           />
         </a>
       </div>
