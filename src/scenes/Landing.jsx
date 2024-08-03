@@ -23,7 +23,7 @@ const Landing = ({ setSelectedPage }) => {
               className="h-auto rounded-t-full hover:filter hover:saturate-150 transition duration-500
               max-w-[400px] md:max-w-[450px]"
               alt="profile"
-              src="assets/profile-image.png"
+              src={require("../assets/profile-image.png")}
             />
           </div>
         ) : (
@@ -31,7 +31,7 @@ const Landing = ({ setSelectedPage }) => {
             className="h-auto rounded-t-full hover:filter hover:saturate-150 transition duration-500
             max-w-[400px] md:max-w-[450px]"
             alt="profile"
-            src="assets/profile-image.png"
+            src={require("../assets/profile-image.png")}
           />
         )}
       </div>

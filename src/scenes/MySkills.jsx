@@ -39,11 +39,15 @@ const MySkills = () => {
               <img
                 className="z-10"
                 alt="skills"
-                src="assets/skills-image.png"
+                src={require("../assets/skills-image.png")}
               />
             </div>
           ) : (
-            <img className="z-10" alt="skills" src="assets/skills-image.png" />
+            <img
+              className="z-10"
+              alt="skills"
+              src={require("../assets/skills-image.png")}
+            />
           )}
         </div>
       </div>

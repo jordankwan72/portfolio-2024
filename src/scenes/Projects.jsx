@@ -37,7 +37,7 @@ const Project = ({ title, projectDescription, link }) => {
       </div>
       <img
         className="w-[650px] h-[500px]"
-        src={`../assets/${projectTitle}.png`}
+        src={require(`../assets/${projectTitle}.png`)}
         alt={projectTitle}
         w-auto
       />
